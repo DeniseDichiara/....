@@ -57,9 +57,6 @@ section{
     flex-direction: row;
 }
 
-
-
-
 footer{
     position: relative;
     bottom: 0;
@@ -88,17 +85,18 @@ ul.flex-icone-centrali{
     align-items: start;
 }
 
+.flex-user{
+    display: flex;
+    justify-content: space-around;
+}
+
 .color-green{
     color: #4bc800;
 }
 
 p{
     color: white;
-    font-size: 1rem;
-}
-
-.pulsante-esci{
-    text-align: center;
+    font-size: .7rem;
 }
 
 .red{
@@ -110,4 +108,19 @@ p{
     text-align: center;
     background-color: #4a4a4a;
     height: 100%;
+}
+
+.flex-user{
+    margin-right: 1rem;
+}
+
+.iconimg{
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    align-items: center;
+}
+
+.narrowup{
+    font-size: .5rem;
 }
