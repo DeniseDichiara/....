@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: black;
+}
+
+footer{
+    background-color: #222222;
+    color: white;
+    padding: 1rem;
+}
+
+nav.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul.flex-icone-start{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+
+ul.flex-icone-centrali{
+    display: flex;
+    align-items: start;
+}
+
+p{
+    color: white;
+    font-size: 1rem;
+}
+
+.red{
+    color: #fa283b;
+    background-color: #4a4a4a;
+    padding: rem;
+}
