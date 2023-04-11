@@ -28,6 +28,14 @@ main{
     background-color: black;
 }
 
+.grey{
+    background-color: rgb(119, 136, 153, 050);
+}
+
+.foto-profilo{
+    margin: 5%;
+}
+
 footer{
     background-color: #222222;
     color: white;
