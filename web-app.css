@@ -30,6 +30,7 @@ div.upper-nav-bar{
 
 main{
     background-color: black;
+    margin-left: 50px;
 }
 
 .grey{
@@ -46,9 +47,9 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 5px;
+    margin: 2px;
     width: calc((100% / 7) - 10px);
-    height: 8rem;
+    height: 7.5rem;
 }
 
 section{
